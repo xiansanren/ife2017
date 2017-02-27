@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>三栏式布局</title>
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			body{
+				padding: 20px;
+			}
+			.right:{
+				width: 120px;
+				float: right;
+				position: absolute;
+				right: 0;
+				border: 1px solid #999;
+			}
+			.right > img{
+				display: block;
+				width: 80px;
+				height: 80px;
+			}
+			.left{
+				float: left;
+				width: 200px;
+				padding: 20px;
+				border: 1px solid #999;
+			}
+			.left > img{
+				width: 80px;
+				height: 80px;
+			}
+			.left > p{
+				float: right;
+			}
+			article{
+				float: left;
+			}
+
+		</style>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<main>
+			<div class="right">
+				<img src="../MouseBlurEffect/demo.png" alt="团队成员图片" />
+				<img src="../MouseBlurEffect/demo.png" alt="团队成员图片" />
+				<img src="../MouseBlurEffect/demo.png" alt="团队成员图片" />
+				<img src="../MouseBlurEffect/demo.png" alt="团队成员图片" />
+			</div>
+			<article>
+				<h1>团队介绍</h1>
+				<p>百度Web前端技术学院（Baidu Institute of Front-End Technology简称IFE）是一百度人力资源部校园招聘组，百度EFE团队联合出品的，面向在校大学生以及对前端技术有兴趣的前端在线学习平台，我们希望能够借助百度大量优秀的前端工程师以及丰富的前端知识积累，帮助人们更加有趣，高效，系统地学习Web前端技术。</p>
+			</article>
+			<div class="left">
+				<img src="../MouseBlurEffect/demo.png" alt="团队logo" />
+				<p>xiansanren</p>
+			</div>
+		</main>
+	</body>
+</html>

@@ -110,15 +110,15 @@
 					<span>请重复输入密码：</span><input type="password" placeholder="这是一个文本输入框" />
 					<p>密码请为6-16位英文数字</p>
 					<span>性别：</span>
-					<label><input type="radio" name="sex" checked="checked" value="male"/>男</label>
-					<label><input type="radio" name="sex" value="female"/>女</label>
+					<input type="radio" name="sex" id="male" checked="checked" value="male"/><label for="male">男</label>
+					<input type="radio" name="sex" id="female" value="female"/><label for="female">女</label>
 					<p></p>
 					<span>城市：</span><select name="city"><option>北京</option></option></select>
 					<p></p>
 					<span>爱好：</span>
-					<label><input type="checkbox" name="interest" value="1" />运动</label>
-					<label><input type="checkbox" name="interest" value="2" />艺术</label>
-					<label><input type="checkbox" name="interest" value="3" />科学</label>
+					<input type="checkbox" name="interest" id="run" value="1" /><label for="run">运动</label>
+					<input type="checkbox" name="interest" id="art" value="2" /><label for="art">艺术</label>
+					<input type="checkbox" name="interest" id="read" value="3" /><label for="read">阅读</label>
 					<p></p>
 					<span>个人描述：</span><textarea name="desc">输入您的个人描述</textarea>
 					<p></p>

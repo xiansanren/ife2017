@@ -15,8 +15,6 @@ header>h1{
 }
 header ul{
 	float: right;
-	position: absolute;
-	right: -10px;
 	width: 400px;
 	height:60px;
 	line-height: 60px;
@@ -32,9 +30,6 @@ header>ul>li>a{
 }
 header>ul>li>a:hover{
 	color: #fff;
-}
-body{
-	
 }
 main{
 	clear: both;
@@ -115,12 +110,13 @@ ol>li{
 footer{
 	padding-top: 20px;
 	color: white;
-    background-color: black;
-    text-align: center;
-    font-size: 13px;
-    height: 70px;
+  background-color: black;
+  text-align: center;
+  font-size: 13px;
+  height: 70px;
 }
 aside{
+	width: 97%;
 	box-shadow:2px 5px 5px #aaaaaa; 
 	padding: 20px;
 	background-color: white;
@@ -138,29 +134,42 @@ form >span{
 	width: 40%;
 	text-align: right;
 	height: 40px;
-    line-height: 40px;
+  line-height: 40px;
 }
-form input{
+form >input{
 	text-align: left;
 	float: left;
-	height: 30px;
-  	line-height: 30px;
+	height: 20px;
+	padding: 3px 0;
+	
 }
 form >p{
 	clear: both;
 	color: #bfbcb5;
 	margin-left: 40%;
 	font-size: 12px;
-	line-height: 400%;
+	margin-bottom: 10px;
 }
 form label{
 	display: inline-block;
 	float: left;
 	margin-right: 10px;
+	padding: 7px;
 }
 textarea{
 	width: 55%;
 	height: 80px;
+}
+input[type='radio']{
+	height: 40px;
+}
+input[type='checkbox']{
+	height: 40px;
+}
+select{
+	height: 30px;
+	line-height: 40px;
+	margin: 5px 0;
 }
 input[type=submit]{
 	width: 100%;

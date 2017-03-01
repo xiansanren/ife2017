@@ -15,6 +15,8 @@ header>h1{
 }
 header ul{
 	float: right;
+	position: absolute;
+	right: -10px;
 	width: 400px;
 	height:60px;
 	line-height: 60px;
@@ -45,12 +47,16 @@ article{
 	padding: 20px;
 	margin-bottom: 20px;
 }
-article>h1{
-	
+article > h1, h2, span{
+  line-height: 200%;
 }
 article > h2{
-	font-size: 14px;
-
+	font-size: 16px;
+   color: #6d6c68;
+}
+article > span{
+  font-size: 12px;
+  color: #8b7e6b;
 }
 article > p{
 	text-indent: 2em;
@@ -78,6 +84,7 @@ article > figure > figcaption{
 	margin-top: 10px;
 }
 table{
+	margin-top: 20px;
 	width: 100%;
 	border-collapse:collapse;
 }
@@ -102,6 +109,8 @@ tr:last-child{
 }
 ol>li{
 	margin-left: 45px;
+	line-height: 200%;
+	font-size: 14px;
 }
 footer{
 	padding-top: 20px;
@@ -110,4 +119,56 @@ footer{
     text-align: center;
     font-size: 13px;
     height: 70px;
+}
+aside{
+	box-shadow:2px 5px 5px #aaaaaa; 
+	padding: 20px;
+	background-color: white;
+	overflow: auto;
+	
+}
+aside > h2{
+	border-left:3px solid #ccc;
+	padding-left: 10px;
+	font-size: 16px;
+}
+form >span{
+	display: block;
+	float: left;
+	width: 40%;
+	text-align: right;
+	height: 40px;
+    line-height: 40px;
+}
+form input{
+	text-align: left;
+	float: left;
+	height: 30px;
+  	line-height: 30px;
+}
+form >p{
+	clear: both;
+	color: #bfbcb5;
+	margin-left: 40%;
+	font-size: 12px;
+	line-height: 400%;
+}
+form label{
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+}
+textarea{
+	width: 55%;
+	height: 80px;
+}
+input[type=submit]{
+	width: 100%;
+	color: white;
+	background-color:#3355d0;
+	border-radius: 10px;
+	margin: 20px auto;
+	height: 40px;
+	text-align: center;
+	border: none;
 }

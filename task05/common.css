@@ -1,0 +1,187 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: #333;
+	height: 60px;
+}
+header>h1{
+	margin-left: 20px;
+	float: left;
+	color: red;
+	height: 60px;
+	line-height: 60px;
+}
+header ul{
+	float: right;
+	width: 400px;
+	height:60px;
+	line-height: 60px;
+}
+header ul li{
+	float: left;
+	margin-left: 30px;
+}
+header>ul>li>a{
+	text-decoration: none;
+	color: #ccc;
+	font-size: 12px;
+}
+header>ul>li>a:hover{
+	color: #fff;
+}
+main{
+	clear: both;
+	background-color: #dedede;
+	padding: 20px;
+	overflow: hidden;
+}
+article{
+	box-shadow:2px 5px 5px #aaaaaa; 
+	background-color: #FFFFFF;
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-right: 460px;
+	overflow: hidden;
+}
+article > h1, h2, span{
+  line-height: 200%;
+}
+article > h2{
+	font-size: 16px;
+   color: #6d6c68;
+}
+article > span{
+  font-size: 12px;
+  color: #8b7e6b;
+}
+article > p{
+	text-indent: 2em;
+}
+article > ul > li{
+	margin-left: 20px;
+	list-style: none;
+}
+article > figure{
+	width: 120px;
+	height: 125px;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+	margin-left: 20px;
+	float: left;
+}
+article > figure > img{
+	width: 100px;
+	height: 80px;
+	margin: 10px auto;
+	display: block;
+}
+article > figure > figcaption{
+	text-align: center;
+	font-size:10px ;
+	margin-top: 10px;
+}
+table{
+	margin-top: 20px;
+	width: 100%;
+	border-collapse:collapse;
+}
+table  tr{
+	height: 23px;
+}
+th,td{
+	padding: 5px;
+	border: 1px solid #cacac8;
+}
+th{
+	background-color: black;
+	color: white;
+	text-align: left;
+}
+td{
+	border-collapse:collapse;
+}
+tr:last-child{
+	background-color: #cccccc;
+	font-weight: bold;
+}
+ol>li{
+	margin-left: 45px;
+	line-height: 200%;
+	font-size: 14px;
+}
+footer{
+	padding-top: 20px;
+	color: white;
+	background-color: black;
+	text-align: center;
+	font-size: 13px;
+	height: 70px;
+}
+aside{
+	float: right;
+	box-shadow:2px 5px 5px #aaaaaa; 
+	padding: 20px;
+	background-color: white;
+	width: 400px;
+	overflow: auto;
+}
+aside > h2{
+	border-left:3px solid #ccc;
+	padding-left: 10px;
+	font-size: 16px;
+}
+form >span{
+	display: block;
+	float: left;
+	width: 40%;
+	text-align: right;
+	height: 40px;
+  line-height: 40px;
+}
+form >input{
+	text-align: left;
+	float: left;
+	height: 20px;
+	padding: 3px 0;
+	
+}
+form >p{
+	clear: both;
+	color: #bfbcb5;
+	margin-left: 40%;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+form label{
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+	padding: 7px;
+}
+textarea{
+	width: 55%;
+	height: 80px;
+}
+input[type='radio']{
+	height: 40px;
+}
+input[type='checkbox']{
+	height: 40px;
+}
+select{
+	height: 30px;
+	line-height: 40px;
+	margin: 5px 0;
+}
+input[type=submit]{
+	width: 100%;
+	color: white;
+	background-color:#3355d0;
+	border-radius: 10px;
+	margin: 20px auto;
+	height: 40px;
+	text-align: center;
+	border: none;
+}

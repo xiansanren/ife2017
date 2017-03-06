@@ -36,6 +36,8 @@ main{
 }
 .top{
 	margin-top: 35px;
+	width: 100%;
+	height: 301px;
 }
 .top_left{
 	float:left;
@@ -52,7 +54,7 @@ main{
 .left_layer{
 	float: left;
 	background-color: green;
-	opacity:0.4;
+	opacity:0.3;
 }
 .right_layer{
 	float: right;
@@ -66,11 +68,261 @@ main{
 	border-top:2px solid #cc8091;
 }
 .top_right{
+	overflow: hidden;
 	font-family: "microsoft yahei";
 }
 .title{
 	text-decoration: underline;
 	font-variant: small-caps;
-	text-transform:capitalize;
+	line-height: 40px;
 	font-size: 24px;
+	margin: 0;
+}
+.desc{
+	color: #676767;
+	font-size: 12px;
+	font-family: KaiTi;
+	line-height: 10px;
+	margin: 0;
+}
+.num{
+	color: #75b86b;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-left: -20px;
+	font-style: oblique;
+	font-size: 116px;
+	line-height: 116px;
+}
+.version{
+	margin: 5px;;
+	float: left;
+	font-size: 55px;
+	color: #cc8091;
+}
+.css{
+	font-size: 21px;
+	color: #cc8091;
+	height: 21px;
+	margin-top: 40px;
+	margin-bottom: 0;
+	line-height: 21px;
+}
+.css_desc{
+	margin: 0;
+	font-size: 12px;
+	height: 12px;
+	color: #ccc;
+}
+.middle{
+	width: 641px;
+	overflow: hidden;
+}
+article{
+	float: left;
+	/*! padding-right: 25px; */
+}
+article > h2{
+	font-size: 16px;
+	text-decoration:underline;
+	font-weight: bold;
+}
+.what{
+	width: 36%;
+}
+.when{
+	width: 32%;
+}
+.how{
+	width: 20%;
+}
+.what > h2{
+	color: #418c59;
+}
+.when > h2{
+	color: #d2994f;
+}
+.how > h2{
+	color: #cc7680;
+}
+article > p{
+	font-size: 12px;
+	line-height: 16px;
+}
+.what > p{
+	color: #767777;
+	font-family: SimSun;
+}
+.when > p{
+	color: #231815;
+  font-family: "microsoft yahei";
+	opacity:0.7;
+}
+.how > p{
+	opacity:0.7;
+}
+.how  span {
+	color: #cd4a48;
+	font-family: "microsoft yahei";
+	opacity:0.7;
+	font-style: oblique;
+}
+.bottom{
+	width: 100%;
+	margin-top: 60px;
+	clear: both;
+	overflow: hidden;
+}
+.bottom_left{
+	width: 415px;
+}
+.bottom_left >.bottom_left_top{
+	border-bottom: 2px solid #11456b;
+}
+.bottom_left > .bottom_left_top > p{
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #11456b;
+	font-family: SimHei;
+	font-size: 35px;
+	line-height: 42px;
+}
+
+.bottom_left > .bottom_left_top > p>span{
+	font-size: 72px;
+	color: #f5e327;
+	font-style: oblique;
+	line-height: 72px;
+}
+.bottom_left >.bottom_left_top>p:last-child{	
+	font-size: 33px;
+	padding-bottom: 10px;
+}
+.bottom_left> article{
+	width: 415px;
+}
+.bottom_left >article > p{
+	font-size: 12px;
+	color: #767777;
+	font-family: "SimTi";
+	line-height: 16px;
+	margin: 0;
+}
+.bottom_left>article>p:first-child{
+	margin-top: 20px;
+}
+.bottom_left >article > p:first-child:first-letter{
+	font-size: 70px;
+	float: left;
+	color: #f5e327;
+	font-size: 600%;
+	font-family: "microsoft yahei";
+}
+.bottom_left > article>img{
+	float: right;
+	margin: 12px 0px 12px 20px;
+}
+.p_two{
+	text-indent: 2em;
+}
+.bottom_right{
+	float: right;
+	margin-top: -150px;
+}
+.bottom_right_top{
+	position: relative;
+}
+.bottom_right_top > img{
+	width: 458px;
+	height: 275px;
+}
+.floatbox{
+	width: 458px;
+	height: 61px;
+	position: absolute;
+	bottom: 5px;
+	background-color: rgba(0,0,0,0.3);
+}
+.floatbox>p{
+	float: left;
+	margin: 8px 0 0 40px;
+	color: white;
+	font-size: 26px;
+	border-left: 3px solid #72b16a; 
+	line-height: 44px;
+	vertical-align: middle;
+	padding-left: 10px;
+	font-family: "microsoft yahei";
+}
+.floatbox>span{
+	display: block;
+	float: left;
+	margin-top:30px;
+	margin-left: 5px;
+	font-size: 12px;
+	font-style: oblique;
+	color: #72b16a;
+	line-height: 140%;
+	font-family: "microsoft yahei";
+}
+.bottom_right_bottom{
+	background-color: #eeeed6;
+	height: 318px;
+	width: 459px;
+	margin-top: 25px;
+	overflow: hidden;
+}
+li{
+	list-style: none;
+	color: #5a5b5b;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: left;
+	font-family: "SimSun";	
+}
+li >p>span:last-child{
+	font-size: 12px;
+	font-style: oblique;
+	text-align: right;
+	line-height: 20px;
+	
+}
+.triangle_up{
+	width: 0;
+	height: 0;
+	display: inline-block;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 10px solid #094a74;
+	margin-right: 10px;
+}
+footer{
+	border-top: 1px solid #938e8c;
+	width: 892px;
+	margin: 30px auto;
+}
+.red{
+	float: left;
+	width: 260px;
+	height: 160px;
+	background-color:#d55d5c;
+	position: relative;
+}
+.red>p:first-child{
+	position: absolute;
+	font-size: 110px;
+	display: inline-block;
+	height: 86px;
+	top:50%;
+	transform: translateY(-50%);
+	float: left;
+	color: white;
+	font-family: "microsoft yahei";
+	margin: 0 0 0 10px;
+	border-right: 2px solid white; 
+}
+q{
+	display: block;
+	float: left;
 }

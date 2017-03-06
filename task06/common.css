@@ -307,20 +307,38 @@ footer{
 	width: 260px;
 	height: 160px;
 	background-color:#d55d5c;
-	position: relative;
+}
+.red >p{
+	color: white;
+	text-transform: uppercase;
+	font-size: 21px;
+	line-height: 24px;
+	padding-top: 20px;
+	word-spacing: 0.3em;
+	font-style: oblique;
+	font-family: "SimHei";
+	margin: 20px 0 0 0;
 }
 .red > p:first-child{
-	position: absolute;
 	font-size: 110px;
 	display: inline-block;
 	height: 86px;
-	top:50%;
-	transform: translateY(-50%);
+	line-height: 86px;
 	float: left;
-	color: white;
 	font-family: "microsoft yahei";
-	margin: 0 0 0 10px;
+	margin: 37px 5px 37px 10px;
 	border-right: 2px solid white; 
+	font-style: normal;
+	padding: 0;
+}
+.red>p:last-child{
+	font-size: 12px;
+	line-height: 6px;
+	text-transform: lowercase;
+	font-family: "SimHei";
+	font-style: normal;
+	padding-top: 9px;
+	margin-top: 0;
 }
 q{
 	display: block;

@@ -118,11 +118,11 @@ main{
 	width: 641px;
 	overflow: hidden;
 }
-article{
+.middle > article{
 	float: left;
-	/*! padding-right: 25px; */
+	padding-right: 25px; 
 }
-article > h2{
+.middle > article > h2{
 	font-size: 16px;
 	text-decoration:underline;
 	font-weight: bold;
@@ -145,7 +145,7 @@ article > h2{
 .how > h2{
 	color: #cc7680;
 }
-article > p{
+.middle > article > p{
 	font-size: 12px;
 	line-height: 16px;
 }
@@ -228,7 +228,7 @@ article > p{
 }
 .bottom_right{
 	float: right;
-	margin-top: -150px;
+	margin-top: -620px;
 }
 .bottom_right_top{
 	position: relative;
@@ -309,7 +309,7 @@ footer{
 	background-color:#d55d5c;
 	position: relative;
 }
-.red>p:first-child{
+.red > p:first-child{
 	position: absolute;
 	font-size: 110px;
 	display: inline-block;

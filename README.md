@@ -4,7 +4,7 @@
 >- 任务三：三栏式布局[预览效果][5], [提交的代码][6]
 >- 任务四：定位和居中问题[预览效果][7], [提交的代码][8]
 >- 任务五：零基础HTML及CSS编码（二）[预览效果][9], [提交的代码][10]
->- 任务六：通过HTML及CSS模拟报纸排版 [预览效果][11], [提交的代码][12]
+>- 任务六：通过HTML及CSS模拟报纸排版 [预览效果][11] , [提交的代码][12]
 
   [1]: https://xiansanren.github.io/ife2017/task01/
   [2]: https://github.com/xiansanren/ife2017/blob/master/task01/index.html
@@ -16,5 +16,5 @@
   [8]: https://github.com/xiansanren/ife2017/blob/master/task04/index.html
   [9]: https://xiansanren.github.io/ife2017/task05/
   [10]: https://github.com/xiansanren/ife2017/blob/master/task05/index.html
-  [11]: https://xiansanren.github.io/ife2017/task06/
+ [11]: https://xiansanren.github.io/ife2017/task06/
   [12]: https://github.com/xiansanren/ife2017/tree/master/task06

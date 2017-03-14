@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: "微软雅黑";
 }
 header{
   height: 60px;
@@ -77,16 +78,122 @@ header > a> img{
 main{
   min-width: 1024px;
 }
-.bg>img{
-  width: 90%;
-  height: 800px;
-}
 .bg{
   position: relative;
 }
-.bg>p{
+.bg>img{
+  width: 100%;
+  height: 700px;
+}
+.bg>div{
   color: white;
   position: absolute;
-  top:250px;
-  left: 50px;
+  top:180px;
+  width: 455px;
+  left: 115px;
+}
+.bg>div>p:first-child{
+  margin-bottom: 30px;
+  font-size: 60px;
+}
+.bg>div>p{
+  font-size:21px;
+  margin-bottom: 10px;
+}
+.bg>div>a{
+  margin-top: 70px;
+  display: inline-block;
+  width: 330px;
+  height: 60px;
+  background-color: #e8504e;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  line-height: 60px;
+  text-decoration: none;
+}
+.list{
+	width: 100%;
+	height: 250px;
+}
+.list_item{
+  display: inline-block;
+	width: 24%;
+  text-align: center;
+  font-family: "SimHei";
+  font-size: 14px;
+}
+.list_item > img{
+  padding: 40px; 
+  display: block;
+  margin: 10px auto;
+}
+.list_item>p{
+  border-right: 1px solid black;
+}
+#no_border{
+  border: none;
+}
+.about{
+  background-color: #ededec;
+  height: 360px;
+  font-size: 54px;
+  color: #8f8f8f;
+  text-align: center;
+  font-family: "SimHei";
+}
+.about img{
+  margin-top:90px; 
+  margin-bottom: 30px;
+}
+.address{
+	background-image: url(images/banner4.png);
+	width: 100%;
+	height: 340px;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+.mask{
+  width: 100%;
+	height: 340px;
+  z-index: 3;
+  background-color: red;
+  opacity: 0.1;
+}
+.address_input{
+  position: relative;
+  top:0;
+}
+.title{
+  padding-top: 50px;
+  font-size: 21px;
+}
+.desc{
+  padding-top: 10px;
+	font-size: 12px;
+}
+.hr{
+  border-top:2px solid white;
+  width: 30px;
+  margin: 10px auto;
+}
+input{
+  margin-top: 50px;
+}
+select{
+	width: 235px;
+  	height: 35px;
+}
+input[type="submit"]{
+	width: 235px;
+  height: 35px;
+  background-color: #be4e48;
+  color: white;
+  font-size: 14px;
+  border: none;
+}
+.activity{
+  text-align: center;
+  margin: 100px auto;
 }

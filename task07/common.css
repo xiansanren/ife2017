@@ -162,8 +162,10 @@ main{
   opacity: 0.1;
 }
 .address_input{
-  position: relative;
+  position: absolute;
   top:0;
+  left:50%;
+  margin-left: -480px;
 }
 .title{
   padding-top: 50px;
@@ -194,6 +196,73 @@ input[type="submit"]{
   border: none;
 }
 .activity{
+  background-color: #f7f7f7;
+  position: relative;
   text-align: center;
-  margin: 100px auto;
+  height: 370px;
+  margin: 0 auto;
+  padding:100px; 
+   
 }
+.activity>img{
+  position: absolute;
+  left: 150px;
+  z-index: 5;
+}
+.activity_item{
+  position: absolute;
+  width: 220px;
+  height: 40px;
+  float: left;
+  font-size: 21px;
+}
+.area_desc{
+  color: #ccc;
+  font-size: 16px;
+}
+.beijing{
+  padding-top: 15px;
+  top:420px;
+  left:140px;
+}
+.shanghai{
+  top:90px;
+  left:400px;
+}
+.shenzhen{
+  padding-top: 15px;
+  top:415px;
+  left:660px;
+}
+.hongkong{
+  padding-top: 15px;
+  top:415px;
+  left:910px;
+}
+.boder{
+  background-color: #ffffff;
+  width: 218px;
+  height: 335px;
+  position: absolute;
+  z-index: 2;
+  border: 1px solid #e0e0e0;
+}
+.beijing_out_boder{
+  top:-330px;
+}
+.shanghai_out_boder{
+  top:55px;
+  left:-5px;
+}
+.shenzhen_out_boder{
+  top:-325px;
+  left:-7px;
+}
+.hongkong_out_boder{
+  top:-325px;
+}
+.new_world >img{
+  width: 850px;
+  height: 570px;
+}
+
